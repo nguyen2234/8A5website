@@ -2,7 +2,7 @@
 name: Gợi ý, đóng góp
 about: Gợi ý cho chúng tôi hoặc đóng góp gì đó
 title: ''
-labels: ''
+labels: Suggest
 assignees: thesussycode, nguyen2234, baoson1
 
 ---

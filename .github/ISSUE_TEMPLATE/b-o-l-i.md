@@ -3,7 +3,7 @@ name: Báo lỗi
 about: Báo cáo lỗi, (chính tả, giao diện,..)
 title: ''
 labels: bug
-assignees: nguyen2234, baoson1
+assignees: thesussycode, nguyen2234, baoson1
 
 ---
 
