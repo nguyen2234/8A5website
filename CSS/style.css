@@ -21,3 +21,6 @@ footer {
     width: 100%;
     height: 100%;
 }
+#widgetbotframe {
+    border-radius: 30px;
+}
