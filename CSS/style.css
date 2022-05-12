@@ -5,6 +5,7 @@ footer {
     border-top: 5px solid blue !important;
 }
 .container {
+    text-align: center !important;
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -23,4 +24,14 @@ footer {
 }
 #widgetbotframe {
     border-radius: 30px;
+}
+/* reponsive */
+
+@media (max-width : 500px) {
+    .nav-item {
+        margin-top: 5px !important;
+    }
+    button {
+        margin-top: 10px !important;
+    }
 }
