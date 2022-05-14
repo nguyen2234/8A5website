@@ -1,5 +1,10 @@
-if (window.innerWidth <= 500) {
-    var rp = document.querySelector('.container')
-    var inw = innerWidth - 10 + ";"
-    rp.style = "border: 1px solid red !important; height: 800px !important;"
+var rp = document.querySelector('.container')
+function responsive_iframe() {
+    if (window.innerWidth <= 500) {
+        rp.style = "height: 800px !important;"
+    }
+    else {
+        rp.style = ''
+    }
 }
+setInterval( responsive_iframe, 1)
