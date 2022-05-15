@@ -1,133 +1,102 @@
-document.querySelector('head').innerHTML = '<meta charset="UTF-8">\n' +
+document.querySelector('head').innerHTML = ' <meta charset="UTF-8">\n' +
     '    <meta name="viewport"\n' +
-    '           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">\n' +
+    '          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">\n' +
     '    <meta http-equiv="X-UA-Compatible" content="ie=edge">\n' +
     '    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nguyen2234/8A5website@v0.2.2/CSS/style.css">\n' +
-    '    <title>8A5\'s website - Trang Chủ</title>\n' +
+    '    <title>8A5\'s website - Báo Lỗi, Đóng Góp</title>\n' +
     '    <link rel="icon" href="img/8a5logo.png">\n' +
-    '    <meta name="description" content="Trang Chủ của 8A5\'s website, bao gồm thông báo và một số thông tin chung,..">' +
+    '    <meta name="description" content="Trang Báo Lỗi và đóng góp của 8A5\'s website, để bạn có thể báo cáo lỗi hay đóng góp một số ý tưởng">' +
     '   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">'
 
 // Web Head
 
 
-//<meta charset="UTF-8">
-//     <meta name="viewport"
-//           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-//     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-//     <link rel="stylesheet" href="CSS/style.css">
-//     <title>8A5's website - Trang Chủ</title>
-//     <link rel="icon" href="img/8a5logo.png">
-//     <meta name="description" content="Trang Chủ của 8A5's website, bao gồm thông báo và một số thông tin chung,..">
+//<meta name="viewport"\n' +
+//       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">\n' +
+// <meta http-equiv="X-UA-Compatible" content="ie=edge">\n' +
+// <title>8A5\'s website - Báo Lỗi, Đóng Góp</title>\n' +
+// <link rel="icon" href="img/8a5logo.png">\n' +
+// <meta name="description" content="Trang Báo Lỗi và đóng góp của 8A5\'s website, để bạn có thể báo cáo lỗi hay đóng góp một số ý tưởng">' +
+// link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
-document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">\n' +
-    '        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">\n' +
-    '            <img class="bi me-2" style="margin-left: 20px" width="45" height="37" src="img/8a5logo.png" alt="Error">\n' +
-    '            <span class="fs-4">8A5\'s website</span>\n' +
-    '        </a>\n' +
+document.querySelector('body').innerHTML += '<!--header-->\n' +
+    '<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">\n' +
+    '    <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">\n' +
+    '        <img class="bi me-2" style="margin-left: 20px" width="45" height="37" src="img/8a5logo.png" alt="Error">\n' +
+    '        <span class="fs-4">8A5\'s website</span>\n' +
+    '    </a>\n' +
     '\n' +
     '\n' +
-    '        <ul class="nav nav-pills">\n' +
+    '    <ul class="nav nav-pills">\n' +
     '\n' +
-    '            <li class="nav-item dropdown">\n' +
-    '                <a class="nav-link dropdown-toggle .nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown">Trang chủ</a>\n' +
-    '                <ul class="dropdown-menu">\n' +
-    '                    <li><a class="dropdown-item" href="index.html">Trang chủ</a></li>\n' +
-    '                    <li><a class="dropdown-item" href="index.html#thongbao">Thông Tin ,Thông Báo</a></li>\n' +
-    '                    <li><a class="dropdown-item" href="index.html#gioithieu">Giới Thiệu</a></li>\n' +
-    '\n' +
-    '\n' +
-    '                    <!--                    <li><a class="dropdown-item" href="#"> Dropdown item 1 » </a>-->\n' +
-    '<!--&lt;!&ndash;                        <ul class="submenu dropdown-menu">&ndash;&gt;-->\n' +
-    '<!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>&ndash;&gt;-->\n' +
-    '<!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>&ndash;&gt;-->\n' +
-    '<!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>&ndash;&gt;-->\n' +
-    '<!--&lt;!&ndash;                        </ul>&ndash;&gt;-->\n' +
-    '                </ul>\n' +
-    '            </li>\n' +
-    '\n' +
-    '            <li style="margin-left: 10px;" class="nav-item dropdown">\n' +
-    '                <a class="nav-link dropdown-toggle .nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown">Những Thứ Khác</a>\n' +
-    '                <ul class="dropdown-menu">\n' +
-    '                    <li><a class="dropdown-item" href="khac.html">Khác</a></li>\n' +
-    '                    <li><a class="dropdown-item" href="khac.html#tkb">Thời Khóa Biểu</a></li>\n' +
+    '        <li class="nav-item dropdown">\n' +
+    '            <a class="nav-link dropdown-toggle .nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown">Trang chủ</a>\n' +
+    '            <ul class="dropdown-menu">\n' +
+    '                <li><a class="dropdown-item" href="index.html">Trang chủ</a></li>\n' +
+    '                <li><a class="dropdown-item" href="index.html#thongbao">Thông Tin ,Thông Báo</a></li>\n' +
+    '                <li><a class="dropdown-item" href="index.html#gioithieu">Giới Thiệu</a></li>\n' +
     '\n' +
     '\n' +
-    '                    <!--                    <li><a class="dropdown-item" href="#"> Dropdown item 1 » </a>-->\n' +
-    '                    <!--&lt;!&ndash;                        <ul class="submenu dropdown-menu">&ndash;&gt;-->\n' +
-    '                    <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>&ndash;&gt;-->\n' +
-    '                    <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>&ndash;&gt;-->\n' +
-    '                    <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>&ndash;&gt;-->\n' +
-    '                    <!--&lt;!&ndash;                        </ul>&ndash;&gt;-->\n' +
-    '                </ul>\n' +
-    '            </li>\n' +
+    '                <!--                    <li><a class="dropdown-item" href="#"> Dropdown item 1 » </a>-->\n' +
+    '                <!--&lt;!&ndash;                        <ul class="submenu dropdown-menu">&ndash;&gt;-->\n' +
+    '                <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>&ndash;&gt;-->\n' +
+    '                <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>&ndash;&gt;-->\n' +
+    '                <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>&ndash;&gt;-->\n' +
+    '                <!--&lt;!&ndash;                        </ul>&ndash;&gt;-->\n' +
+    '            </ul>\n' +
+    '        </li>\n' +
     '\n' +
-    '            <li style="margin-left: 10px;" class="nav-item"><a href="lienlac.html" class="nav-link .nav-link active">Liên Lạc</a></li>\n' +
-    '            <li style="margin-left: 10px;" class="nav-item"><a href="baoloi.html" class="nav-link .nav-link active">Báo lỗi, đóng góp</a></li>\n' +
-    '        </ul>\n' +
-    '    </header>\n' +
+    '        <li style="margin-left: 10px;" class="nav-item dropdown">\n' +
+    '            <a class="nav-link dropdown-toggle .nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown">Những Thứ Khác</a>\n' +
+    '            <ul class="dropdown-menu">\n' +
+    '                <li><a class="dropdown-item" href="khac.html">Khác</a></li>\n' +
+    '                <li><a class="dropdown-item" href="khac.html#tkb">Thời Khóa Biểu</a></li>\n' +
+    '\n' +
+    '\n' +
+    '                <!--                    <li><a class="dropdown-item" href="#"> Dropdown item 1 » </a>-->\n' +
+    '                <!--&lt;!&ndash;                        <ul class="submenu dropdown-menu">&ndash;&gt;-->\n' +
+    '                <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>&ndash;&gt;-->\n' +
+    '                <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>&ndash;&gt;-->\n' +
+    '                <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>&ndash;&gt;-->\n' +
+    '                <!--&lt;!&ndash;                        </ul>&ndash;&gt;-->\n' +
+    '            </ul>\n' +
+    '        </li>\n' +
+    '\n' +
+    '        <li style="margin-left: 10px;" class="nav-item"><a href="lienlac.html" class="nav-link .nav-link active">Liên Lạc</a></li>\n' +
+    '        <li style="margin-left: 10px;" class="nav-item"><a href="baoloi.html" class="nav-link .nav-link active">Báo lỗi, đóng góp</a></li>\n' +
+    '    </ul>\n' +
+    '</header>\n' +
     '\n' +
     '<!--under menu-->\n' +
-    '    <div style="border-bottom: 10px solid blue" class="px-4 py-5 my-5 text-center">\n' +
-    '        <img style="margin-top: -70px; width: min(80vw, 500px);" class="d-block mx-auto mb-4" src="img/8a5logo.png" alt="Error" height="auto">\n' +
-    '        <h1 class="display-5 fw-bold">Trang chủ</h1>\n' +
-    '        <div class="col-lg-6 mx-auto">\n' +
-    '            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">\n' +
-    '<!--                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>-->\n' +
-    '            </div>\n' +
+    '<div style="border-bottom: 10px solid blue" class="px-4 py-5 my-5 text-center">\n' +
+    '    <img style="margin-top: -70px; width: min(80vw, 500px);" class="d-block mx-auto mb-4" src="img/8a5logo.png" alt="Error" height="auto">\n' +
+    '    <h1 class="display-5 fw-bold">Báo Lỗi, Đóng Góp</h1>\n' +
+    '    <div class="col-lg-6 mx-auto">\n' +
+    '        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">\n' +
+    '            <!--                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>-->\n' +
     '        </div>\n' +
     '    </div>\n' +
+    '</div>\n' +
+    '\n' +
     '\n' +
     '    <main>\n' +
-    '        <div id="thongbao" style="border-bottom: 10px solid blue !important; padding-bottom: 90px;"  class="px-4 pt-5 my-5 text-center border-bottom">\n' +
-    '            <h1 class="display-4 fw-bold">THÔNG BÁO</h1>\n' +
+    '        <!--Redirect-->\n' +
+    '        <div class="px-4 py-5 my-5 text-center">\n' +
+    '            <h1 class="display-5 fw-bold">Centered hero</h1>\n' +
     '            <div class="col-lg-6 mx-auto">\n' +
-    '                <p class="lead mb-4">Thông báo, bài vở,.. Hãy đóng góp thêm vào nếu bạn biết gì đó, lưu ý ghi rõ và to thời điểm thông báo cho người khác cùng biết. Phần dưới sẽ hỏi tên của bạn nên vui lòng nhập đúng họ và tên.</p>\n' +
-    '                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">\n' +
-    '                </div>\n' +
-    '            </div>\n' +
-    '            <div class="container">\n' +
-    '                <iframe class="responsive-iframe" src="https://e.widgetbot.io/channels/963462452589256764/966353951584821368"></iframe>\n' +
-    '            </div>\n' +
-    '        </div>\n' +
-    '\n' +
-    '\n' +
-    '\n' +
-    '        <div style="border-bottom: 5px solid blue !important; padding-bottom: 18px" class="px-4 pt-5 my-5 text-center border-bottom">\n' +
-    '            <h1 class="display-4 fw-bold">Giới thiệu về lớp</h1>\n' +
-    '        </div>\n' +
-    '        <div id="gioithieu" class="row g-4 py-5 row-cols-1 row-cols-lg-3">\n' +
-    '            <div style="text-align: center" class="feature col">\n' +
-    '                <img style=\'width: min(80vw, 500px);\' src="img/ảnh%20cô%20xuân.png" alt="Error">\n' +
-    '                <div class="feature-icon bg-primary bg-gradient">\n' +
-    '                    <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>\n' +
-    '                </div>\n' +
-    '                <h2>Giáo Viên Chủ Nhiệm</h2>\n' +
-    '                <p>Cô Hương Xuân</p>\n' +
-    '            </div>\n' +
-    '            <div style="text-align: center" class="feature col">\n' +
-    '                <img style=\'width: min(80vw, 500px);\' src="img/số%20học%20sinh%20icon.png" alt="Error">\n' +
-    '                <div class="feature-icon bg-primary bg-gradient">\n' +
-    '                    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>\n' +
-    '                </div>\n' +
-    '                <h2>Số Học Sinh</h2>\n' +
-    '                <p>30</p>\n' +
-    '            </div>\n' +
-    '            <div style="text-align: center" class="feature col">\n' +
-    '                <img style=\'width: min(80vw, 500px);\' src="img/class%20icon.jpg" alt="Error">\n' +
-    '                <div class="feature-icon bg-primary bg-gradient">\n' +
-    '                    <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>\n' +
-    '                </div>\n' +
-    '                <h2>Lớp</h2>\n' +
-    '                <p>8A5</p>\n' +
-    '                </a>\n' +
+    '                <p class="lead mb-4">Bạn có thể inbox qua <a href="https://www.facebook.com/phucnguyen.tran.942145/">Messenger</a> hoặc discord <a href="https://discord.gg/maCEPwYNcV">https://discord.gg/maCEPwYNcV</a>. Hoặc đợi để vào trang báo lỗi và đóng góp trên github(khuyến khích)</p>\n' +
+    '                <p class="lead mb-4">Tự động chuyển hướng đến trang github sau : <output id="output" ></output></p>\n' +
+    '                <p onclick="clearInterval(redirectsc)" >Ấn vào đây để dừng</p>\n' +
     '            </div>\n' +
     '        </div>\n' +
     '    </main>\n' +
     '\n' +
+    '\n' +
+    '\n' +
+    '\n' +
     '<!--    footer-->\n' +
-    '        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">\n' +
+    '<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">\n' +
     '            <div class="col-md-4 d-flex align-items-center">\n' +
     '                <span style="margin-left: 20px" class="text-muted">© 2022 by KMP</span>\n' +
     '            </div>\n' +
@@ -150,113 +119,83 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
 
 // Web Body
 
-//<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-//         <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-//             <img class="bi me-2" style="margin-left: 20px" width="45" height="37" src="img/8a5logo.png" alt="Error">
-//             <span class="fs-4">8A5's website</span>
-//         </a>
+//<!--header-->
+// <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+//     <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+//         <img class="bi me-2" style="margin-left: 20px" width="45" height="37" src="img/8a5logo.png" alt="Error">
+//         <span class="fs-4">8A5's website</span>
+//     </a>
 //
 //
-//         <ul class="nav nav-pills">
+//     <ul class="nav nav-pills">
 //
-//             <li class="nav-item dropdown">
-//                 <a class="nav-link dropdown-toggle .nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown">Trang chủ</a>
-//                 <ul class="dropdown-menu">
-//                     <li><a class="dropdown-item" href="index.html">Trang chủ</a></li>
-//                     <li><a class="dropdown-item" href="index.html#thongbao">Thông Tin ,Thông Báo</a></li>
-//                     <li><a class="dropdown-item" href="index.html#gioithieu">Giới Thiệu</a></li>
-//
-//
-//                     <!--                    <li><a class="dropdown-item" href="#"> Dropdown item 1 » </a>-->
-// <!--&lt;!&ndash;                        <ul class="submenu dropdown-menu">&ndash;&gt;-->
-// <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>&ndash;&gt;-->
-// <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>&ndash;&gt;-->
-// <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>&ndash;&gt;-->
-// <!--&lt;!&ndash;                        </ul>&ndash;&gt;-->
-//                 </ul>
-//             </li>
-//
-//             <li style="margin-left: 10px;" class="nav-item dropdown">
-//                 <a class="nav-link dropdown-toggle .nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown">Những Thứ Khác</a>
-//                 <ul class="dropdown-menu">
-//                     <li><a class="dropdown-item" href="khac.html">Khác</a></li>
-//                     <li><a class="dropdown-item" href="khac.html#tkb">Thời Khóa Biểu</a></li>
+//         <li class="nav-item dropdown">
+//             <a class="nav-link dropdown-toggle .nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown">Trang chủ</a>
+//             <ul class="dropdown-menu">
+//                 <li><a class="dropdown-item" href="index.html">Trang chủ</a></li>
+//                 <li><a class="dropdown-item" href="index.html#thongbao">Thông Tin ,Thông Báo</a></li>
+//                 <li><a class="dropdown-item" href="index.html#gioithieu">Giới Thiệu</a></li>
 //
 //
-//                     <!--                    <li><a class="dropdown-item" href="#"> Dropdown item 1 » </a>-->
-//                     <!--&lt;!&ndash;                        <ul class="submenu dropdown-menu">&ndash;&gt;-->
-//                     <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>&ndash;&gt;-->
-//                     <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>&ndash;&gt;-->
-//                     <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>&ndash;&gt;-->
-//                     <!--&lt;!&ndash;                        </ul>&ndash;&gt;-->
-//                 </ul>
-//             </li>
+//                 <!--                    <li><a class="dropdown-item" href="#"> Dropdown item 1 » </a>-->
+//                 <!--&lt;!&ndash;                        <ul class="submenu dropdown-menu">&ndash;&gt;-->
+//                 <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>&ndash;&gt;-->
+//                 <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>&ndash;&gt;-->
+//                 <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>&ndash;&gt;-->
+//                 <!--&lt;!&ndash;                        </ul>&ndash;&gt;-->
+//             </ul>
+//         </li>
 //
-//             <li style="margin-left: 10px;" class="nav-item"><a href="lienlac.html" class="nav-link .nav-link active">Liên Lạc</a></li>
-//             <li style="margin-left: 10px;" class="nav-item"><a href="baoloi.html" class="nav-link .nav-link active">Báo lỗi, đóng góp</a></li>
-//         </ul>
-//     </header>
+//         <li style="margin-left: 10px;" class="nav-item dropdown">
+//             <a class="nav-link dropdown-toggle .nav-link active" aria-current="page" href="#" data-bs-toggle="dropdown">Những Thứ Khác</a>
+//             <ul class="dropdown-menu">
+//                 <li><a class="dropdown-item" href="khac.html">Khác</a></li>
+//                 <li><a class="dropdown-item" href="khac.html#tkb">Thời Khóa Biểu</a></li>
+//
+//
+//                 <!--                    <li><a class="dropdown-item" href="#"> Dropdown item 1 » </a>-->
+//                 <!--&lt;!&ndash;                        <ul class="submenu dropdown-menu">&ndash;&gt;-->
+//                 <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 1</a></li>&ndash;&gt;-->
+//                 <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 2</a></li>&ndash;&gt;-->
+//                 <!--&lt;!&ndash;                            <li><a class="dropdown-item" href="#">Submenu item 3</a></li>&ndash;&gt;-->
+//                 <!--&lt;!&ndash;                        </ul>&ndash;&gt;-->
+//             </ul>
+//         </li>
+//
+//         <li style="margin-left: 10px;" class="nav-item"><a href="lienlac.html" class="nav-link .nav-link active">Liên Lạc</a></li>
+//         <li style="margin-left: 10px;" class="nav-item"><a href="baoloi.html" class="nav-link .nav-link active">Báo lỗi, đóng góp</a></li>
+//     </ul>
+// </header>
 //
 // <!--under menu-->
-//     <div style="border-bottom: 10px solid blue" class="px-4 py-5 my-5 text-center">
-//         <img style="margin-top: -70px; width: min(80vw, 500px);" class="d-block mx-auto mb-4" src="img/8a5logo.png" alt="Error" height="auto">
-//         <h1 class="display-5 fw-bold">Trang chủ</h1>
-//         <div class="col-lg-6 mx-auto">
-//             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-// <!--                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>-->
-//             </div>
+// <div style="border-bottom: 10px solid blue" class="px-4 py-5 my-5 text-center">
+//     <img style="margin-top: -70px; width: min(80vw, 500px);" class="d-block mx-auto mb-4" src="img/8a5logo.png" alt="Error" height="auto">
+//     <h1 class="display-5 fw-bold">Báo Lỗi, Đóng Góp</h1>
+//     <div class="col-lg-6 mx-auto">
+//         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+//             <!--                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Primary button</button>-->
 //         </div>
 //     </div>
+// </div>
+//
 //
 //     <main>
-//         <div id="thongbao" style="border-bottom: 10px solid blue !important; padding-bottom: 90px;"  class="px-4 pt-5 my-5 text-center border-bottom">
-//             <h1 class="display-4 fw-bold">THÔNG BÁO</h1>
+//         <!--Redirect-->
+//         <div class="px-4 py-5 my-5 text-center">
+//             <h1 class="display-5 fw-bold">Centered hero</h1>
 //             <div class="col-lg-6 mx-auto">
-//                 <p class="lead mb-4">Thông báo, bài vở,.. Hãy đóng góp thêm vào nếu bạn biết gì đó, lưu ý ghi rõ và to thời điểm thông báo cho người khác cùng biết. Phần dưới sẽ hỏi tên của bạn nên vui lòng nhập đúng họ và tên.</p>
-//                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-//                 </div>
-//             </div>
-//             <div class="container">
-//                 <iframe class="responsive-iframe" src="https://e.widgetbot.io/channels/963462452589256764/966353951584821368"></iframe>
-//             </div>
-//         </div>
-//
-//
-//
-//         <div style="border-bottom: 5px solid blue !important; padding-bottom: 18px" class="px-4 pt-5 my-5 text-center border-bottom">
-//             <h1 class="display-4 fw-bold">Giới thiệu về lớp</h1>
-//         </div>
-//         <div id="gioithieu" class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-//             <div style="text-align: center" class="feature col">
-//                 <img style='width: min(80vw, 500px);' src="img/ảnh%20cô%20xuân.png" alt="Error">
-//                 <div class="feature-icon bg-primary bg-gradient">
-//                     <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
-//                 </div>
-//                 <h2>Giáo Viên Chủ Nhiệm</h2>
-//                 <p>Cô Hương Xuân</p>
-//             </div>
-//             <div style="text-align: center" class="feature col">
-//                 <img style='width: min(80vw, 500px);' src="img/số%20học%20sinh%20icon.png" alt="Error">
-//                 <div class="feature-icon bg-primary bg-gradient">
-//                     <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
-//                 </div>
-//                 <h2>Số Học Sinh</h2>
-//                 <p>30</p>
-//             </div>
-//             <div style="text-align: center" class="feature col">
-//                 <img style='width: min(80vw, 500px);' src="img/class%20icon.jpg" alt="Error">
-//                 <div class="feature-icon bg-primary bg-gradient">
-//                     <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
-//                 </div>
-//                 <h2>Lớp</h2>
-//                 <p>8A5</p>
-//                 </a>
+//                 <p class="lead mb-4">Bạn có thể inbox qua <a href="https://www.facebook.com/phucnguyen.tran.942145/">Messenger</a> hoặc discord <a href="https://discord.gg/maCEPwYNcV">https://discord.gg/maCEPwYNcV</a>. Hoặc đợi để vào trang báo lỗi và đóng góp trên github(khuyến khích)</p>
+//                 <p class="lead mb-4">Tự động chuyển hướng đến trang github sau : <output id="output" ></output></p>
+//                 <p onclick="clearInterval(redirectsc)" >Ấn vào đây để dừng</p>
 //             </div>
 //         </div>
 //     </main>
 //
+//
+//
+//
 // <!--    footer-->
-//         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+// <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
 //             <div class="col-md-4 d-flex align-items-center">
 //                 <span style="margin-left: 20px" class="text-muted">© 2022 by KMP</span>
 //             </div>
@@ -793,4 +732,16 @@ function responsive_iframe() {
     }
 }
 setInterval( responsive_iframe, 1)
+
+
+// external - redirect js
+
+var count = 11
+var redirectsc = setInterval(function redirectsc1() {
+    count--
+    document.getElementById('output').innerHTML = count ;
+    if (count === 0) {
+        window.location = 'https://github.com/nguyen2234/8A5website';
+    }
+}, 1000)
 
