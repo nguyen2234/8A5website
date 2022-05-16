@@ -83,7 +83,7 @@ document.querySelector('body').innerHTML += '<!--header-->\n' +
     '    <main>\n' +
     '        <!--Redirect-->\n' +
     '        <div class="px-4 py-5 my-5 text-center">\n' +
-    '            <h1 class="display-5 fw-bold">Centered hero</h1>\n' +
+    '            <h1 class="display-5 fw-bold">Báo Lỗi, Đóng Góp</h1>\n' +
     '            <div class="col-lg-6 mx-auto">\n' +
     '                <p class="lead mb-4">Bạn có thể inbox qua <a href="https://www.facebook.com/phucnguyen.tran.942145/">Messenger</a> hoặc discord <a href="https://discord.gg/maCEPwYNcV">https://discord.gg/maCEPwYNcV</a>. Hoặc đợi để vào trang báo lỗi và đóng góp trên github(khuyến khích)</p>\n' +
     '                <p class="lead mb-4">Tự động chuyển hướng đến trang github sau : <output id="output" ></output></p>\n' +
