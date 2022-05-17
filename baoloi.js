@@ -102,7 +102,7 @@ document.querySelector('body').innerHTML += '<!--header-->\n' +
     '            </div>\n' +
     '            <br>\n' +
     '            <div style="display: block;" >\n' +
-    '                <p class="text-muted" >V0.2.1</p>\n' +
+    '                <p class="text-muted" >V0.2.3</p>\n' +
     '                <ul>\n' +
     '                    <li style="margin-top: -15px" class="text-muted">Fix button, website on mobile </li>\n' +
     '                    <a href="https://github.com/nguyen2234/8A5website/projects/4">Projects</a>\n' +
