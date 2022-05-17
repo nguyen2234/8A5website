@@ -102,7 +102,6 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '                </div>\n' +
     '                <h2>Messenger</h2>\n' +
     '                <button onclick="window.location.href = \'https://www.messenger.com/t/4413694042007508\'" type="button" class="btn btn-primary btn-lg px-4 gap-3">Messenger - Với Cô</button>\n' +
-    '                <button onclick="window.location.href = \'https://www.messenger.com/t/4718629268151557\'" type="button" class="btn btn-primary btn-lg px-4 gap-3">Messenger - Không Cô</button>\n' +
     '            </div>\n' +
     '            <div style="text-align: center" class="feature col">\n' +
     '                <img style="width: min(80vw, 500px);" src="img/zalo%20icon.png" alt="Error">\n' +
