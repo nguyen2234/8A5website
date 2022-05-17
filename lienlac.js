@@ -118,27 +118,26 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '\n' +
     '\n' +
     '    <!--    footer-->\n' +
-    '    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">\n' +
-    '        <div class="col-md-4 d-flex align-items-center">\n' +
-    '            <span style="margin-left: 20px" class="text-muted">© 2022 by KMP</span>\n' +
-    '        </div>\n' +
-    '        <br>\n' +
-    '        <div style="display: block;" >\n' +
-    '            <p class="text-muted" >V0.2.1</p>\n' +
-    '            <ul>\n' +
-    '                <li style="margin-top: -15px" class="text-muted">Fix button, website on mobile </li>\n' +
-    '                <a href="https://github.com/nguyen2234/8A5website/projects/4">Projects</a>\n' +
+    '<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">\n' +
+    '            <div class="col-md-4 d-flex align-items-center">\n' +
+    '                <span style="margin-left: 20px" class="text-muted">© 2022 by KMP</span>\n' +
+    '            </div>\n' +
+    '            <br>\n' +
+    '            <div style="display: block;" >\n' +
+    '                <p class="text-muted" >V0.2.3</p>\n' +
+    '                <ul>\n' +
+    '                    <li style="margin-top: -15px" class="text-muted">Fix button, website on mobile </li>\n' +
+    '                    <a href="https://github.com/nguyen2234/8A5website/projects/4">Projects</a>\n' +
+    '                </ul>\n' +
+    '                <p style="margin-top: -15px" class="text-muted" >Future</p>\n' +
+    '                <ul>\n' +
+    '                    <li style="margin-top: -15px" class="text-muted">Dark mode</li>\n' +
+    '                </ul>\n' +
+    '            </div>\n' +
+    '            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">\n' +
+    '                <li class="ms-3"><a class="text-muted" href="https://github.com/nguyen2234/8A5website">Github, report, đóng góp: <img class="bi" width="24" height="24" src="img/Github%20icon.png" alt="Error"></a></li>\n' +
     '            </ul>\n' +
-    '            <p style="margin-top: -15px" class="text-muted" >Future</p>\n' +
-    '            <ul>\n' +
-    '                <li style="margin-top: -15px" class="text-muted">Dark mode</li>\n' +
-    '            </ul>\n' +
-    '        </div>\n' +
-    '        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">\n' +
-    '            <li class="ms-3"><a class="text-muted" href="https://github.com/nguyen2234/8A5website">Github, report, đóng góp: <img class="bi" width="24" height="24" src="img/Github%20icon.png" alt="Error"></a></li>\n' +
-    '        </ul>\n' +
-    '    </footer>'
-
+    '        </footer>'
 // Web Body
 
 //<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
