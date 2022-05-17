@@ -127,13 +127,13 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '    </main>\n' +
     '\n' +
     '<!--    footer-->\n' +
-    '        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">\n' +
+   '<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4">\n' +
     '            <div class="col-md-4 d-flex align-items-center">\n' +
     '                <span style="margin-left: 20px" class="text-muted">© 2022 by KMP</span>\n' +
     '            </div>\n' +
     '            <br>\n' +
     '            <div style="display: block;" >\n' +
-    '                <p class="text-muted" >V0.2.1</p>\n' +
+    '                <p class="text-muted" >V0.2.3</p>\n' +
     '                <ul>\n' +
     '                    <li style="margin-top: -15px" class="text-muted">Fix button, website on mobile </li>\n' +
     '                    <a href="https://github.com/nguyen2234/8A5website/projects/4">Projects</a>\n' +
