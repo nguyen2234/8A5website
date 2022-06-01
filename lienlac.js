@@ -86,7 +86,7 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '        </div>\n' +
     '        <div id="gioithieu" class="row g-4 py-5 row-cols-1 row-cols-lg-3">\n' +
     '            <div style="text-align: center" class="feature col">\n' +
-    '                <img style="width: min(80vw, 500px);" src="img/discord%20icon.png" alt="Error">\n' +
+    '                <img src="img/discord%20icon.png" alt="Error">\n' +
     '                <div class="feature-icon bg-primary bg-gradient">\n' +
     '                    <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>\n' +
     '                </div>\n' +
@@ -94,7 +94,7 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '                <button onclick="window.location.href = \'https://discord.gg/maCEPwYNcV\'" type="button" class="btn btn-primary btn-lg px-4 gap-3">Discord</button>\n' +
     '            </div>\n' +
     '            <div style=" margin-top: -0.2px; text-align: center;" class="feature col">\n' +
-    '                <img style="width: min(80vw, 500px);" src="img/messenger%20icon.png" alt="Error">\n' +
+    '                <img src="img/messenger%20icon.png" alt="Error">\n' +
     '                <br>\n' +
     '                <br>\n' +
     '                <div class="feature-icon bg-primary bg-gradient">\n' +
@@ -104,7 +104,7 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '                <button onclick="window.location.href = \'https://www.messenger.com/t/4413694042007508\'" type="button" class="btn btn-primary btn-lg px-4 gap-3">Messenger - Với Cô</button>\n' +
     '            </div>\n' +
     '            <div style="text-align: center" class="feature col">\n' +
-    '                <img style="width: min(80vw, 500px);" src="img/zalo%20icon.png" alt="Error">\n' +
+    '                <img src="img/zalo%20icon.png" alt="Error">\n' +
     '                <div class="feature-icon bg-primary bg-gradient">\n' +
     '                    <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>\n' +
     '                </div>\n' +
