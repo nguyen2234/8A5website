@@ -11,6 +11,11 @@ footer {
     width: 100%;
     padding-top: 42.85%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
 
 /* Then style the iframe to fit in the container div with full height and width */
 .responsive-iframe {
