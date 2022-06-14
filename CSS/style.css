@@ -25,7 +25,7 @@ footer {
 #widgetbotframe {
     border-radius: 30px;
 }
-/* reponsive */
+/* responsive */
 
 @media (max-width : 500px) {
     .nav-item {
@@ -34,4 +34,32 @@ footer {
     button {
         margin-top: 10px !important;
     }
+    .img_menu {
+        width: 90vw !important;
+        height: auto;
+        margin: 0px auto;
+    }
+    img {
+        width: 85vw !important;
+        height: auto;
+    }
 }
+
+.img_menu {
+    width: 30vw;
+    height: auto;
+}
+
+img {
+    width: 20vw;
+    height: auto;
+}
+footer > ul > li > a > img {
+    width: 24px !important;
+    height: 24px !important;
+}
+header > a > img {
+    width: 45px !important;
+    height: 37px !important;
+}
+

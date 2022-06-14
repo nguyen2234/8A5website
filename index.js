@@ -23,7 +23,7 @@ document.querySelector('head').innerHTML = '<meta charset="UTF-8">\n' +
 
 document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">\n' +
     '        <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">\n' +
-    '            <img class="bi me-2" style="margin-left: 20px" width="45" height="37" src="img/8a5logo.png" alt="Error">\n' +
+    '            <img class="bi me-2" style="margin-left: 20px;" src="img/8a5logo.png" alt="Error">\n' +
     '            <span class="fs-4">8A5\'s website</span>\n' +
     '        </a>\n' +
     '\n' +
@@ -70,7 +70,7 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '\n' +
     '<!--under menu-->\n' +
     '    <div style="border-bottom: 10px solid blue" class="px-4 py-5 my-5 text-center">\n' +
-    '        <img style="margin-top: -70px; width: min(80vw, 500px);" class="d-block mx-auto mb-4" src="img/8a5logo.png" alt="Error" height="auto">\n' +
+    '        <img class="img_menu" class="d-block mx-auto mb-4" src="img/8a5logo.png" alt="Error" height="auto">\n' +
     '        <h1 class="display-5 fw-bold">Trang chủ</h1>\n' +
     '        <div class="col-lg-6 mx-auto">\n' +
     '            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">\n' +
@@ -99,7 +99,7 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '        </div>\n' +
     '        <div id="gioithieu" class="row g-4 py-5 row-cols-1 row-cols-lg-3">\n' +
     '            <div style="text-align: center" class="feature col">\n' +
-    '                <img style=\'width: min(80vw, 500px);\' src="img/ảnh%20cô%20xuân.png" alt="Error">\n' +
+    '                <img src="img/ảnh%20cô%20xuân.png" alt="Error">\n' +
     '                <div class="feature-icon bg-primary bg-gradient">\n' +
     '                    <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>\n' +
     '                </div>\n' +
@@ -107,7 +107,7 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '                <p>Cô Hương Xuân</p>\n' +
     '            </div>\n' +
     '            <div style="text-align: center" class="feature col">\n' +
-    '                <img style=\'width: min(80vw, 500px);\' src="img/số%20học%20sinh%20icon.png" alt="Error">\n' +
+    '                <img src="img/số%20học%20sinh%20icon.png" alt="Error">\n' +
     '                <div class="feature-icon bg-primary bg-gradient">\n' +
     '                    <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>\n' +
     '                </div>\n' +
@@ -115,7 +115,7 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '                <p>30</p>\n' +
     '            </div>\n' +
     '            <div style="text-align: center" class="feature col">\n' +
-    '                <img style=\'width: min(80vw, 500px);\' src="img/class%20icon.jpg" alt="Error">\n' +
+    '                <img src="img/class%20icon.jpg" alt="Error">\n' +
     '                <div class="feature-icon bg-primary bg-gradient">\n' +
     '                    <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>\n' +
     '                </div>\n' +
