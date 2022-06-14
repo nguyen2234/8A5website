@@ -70,7 +70,7 @@ document.querySelector('body').innerHTML += '<header class="d-flex flex-wrap jus
     '\n' +
     '<!--under menu-->\n' +
     '    <div style="border-bottom: 10px solid blue" class="px-4 py-5 my-5 text-center">\n' +
-    '        <img style="margin-top: -70px; width: min(80vw, 500px);" class="d-block mx-auto mb-4" src="img/8a5logo.png" alt="Error" height="auto">\n' +
+    '        <img class="img_menu" class="d-block mx-auto mb-4" src="img/8a5logo.png" alt="Error" height="auto">\n' +
     '        <h1 class="display-5 fw-bold">Trang chủ</h1>\n' +
     '        <div class="col-lg-6 mx-auto">\n' +
     '            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">\n' +
