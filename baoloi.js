@@ -2,7 +2,7 @@ document.querySelector('head').innerHTML = ' <meta charset="UTF-8">\n' +
     '    <meta name="viewport"\n' +
     '          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">\n' +
     '    <meta http-equiv="X-UA-Compatible" content="ie=edge">\n' +
-    '    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nguyen2234/8A5website@v0.2.2/CSS/style.css">\n' +
+    '    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nguyen2234/8A5website@/CSS/style.css">\n' +
     '    <title>8A5\'s website - Báo Lỗi, Đóng Góp</title>\n' +
     '    <link rel="icon" href="img/8a5logo.png">\n' +
     '    <meta name="description" content="Trang Báo Lỗi và đóng góp của 8A5\'s website, để bạn có thể báo cáo lỗi hay đóng góp một số ý tưởng">' +
